@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    font-family: monospace;
+    color: #4AF626;
+}
+
+header {
+    border-bottom: 1px solid whitesmoke;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    margin: 5%;
+    justify-content: center;
+}
+
+.item {
+    background-color: #7000ff;
+    margin: 1%;
+    height: 100px;
+    width: 100px;
+    border: 1px, solid, whitesmoke;
+}
+
+.item:hover {
+    background-color: red;
+}
+
+.item:active {
+    background-color: salmon;
+}

@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    display: flex;
+}
+
+.container {
+    background-color: #7000ff;
+    display: flex;
+}
+
+.item {
+    background-color: whitesmoke;
+    flex-grow: 1;
+}

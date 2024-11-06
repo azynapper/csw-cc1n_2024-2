@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+.container {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.item {
+    background-color: #7000ff;
+    flex-grow: 1;
+    height: 10px;
+    width: 10px;
+}
+
+#i3 {
+    flex-grow: 2;
+    height: 20px;
+}
